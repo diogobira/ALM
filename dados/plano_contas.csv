@@ -1,0 +1,235 @@
+id;nome
+01.00.000.000.000;ATIVO com Derivativos
+01.01.000.000.000;ATIVO (sem Derivativos)
+01.01.001.000.000;Aplicações Tesouraria
+01.01.001.001.000;Aplicações Tesouraria
+01.01.001.001.001;Caixa
+01.01.001.001.002;Aplicações Tesouraria
+01.01.002.000.000;Títulos Públicos
+01.01.002.001.000;Títulos Públicos
+01.01.002.001.001;Títulos Públicos
+01.01.003.000.000;Operações de crédito e repasses
+01.01.003.001.000;Operações de crédito diretas e indiretas
+01.01.003.001.001;Operações de crédito diretas e indiretas-MN
+01.01.003.001.002;Operações de crédito diretas e indiretas-ME
+01.01.003.001.003;Liberações Futuras- Angra e Itaipú
+01.01.003.002.000;PIS-PASEP
+01.01.003.002.001;PIS-PASEP
+01.01.003.003.000;FMM
+01.01.003.003.001;FMM
+01.01.004.000.000;Carteira Debêntures
+01.01.004.001.000;Carteira Debêntures
+01.01.004.001.001;Carteira Debêntures
+01.01.005.000.000;Carteira BNDESPAR
+01.01.005.001.000;TVM
+01.01.005.001.001;Petrobras
+01.01.005.001.002;Vale
+01.01.005.001.003;TVM_Outros
+01.01.005.002.000;Investimentos
+01.01.005.002.001;Investimentos
+01.01.006.000.000;Outros Ativos
+01.01.006.001.000;Outros Ativos
+01.01.006.001.001;Rendas a receber (Itaipu)
+01.01.006.001.002;Outros Ativos
+01.01.007.000.000;Ganhos e Perdas com Derivativos
+01.01.007.001.000;Ganhos e Perdas com Derivativos
+01.01.007.001.001;Ganhos e Perdas com Derivativos
+01.02.000.000.000;Derivativos (Ativo)
+01.02.001.000.000;Derivativos de Bolsa
+01.02.001.001.000;Dólar Futuro
+01.02.001.001.001;Dólar Futuro
+01.02.001.001.002;Dólar Futuro / DI Futuro
+01.02.001.002.000;DI Futuro
+01.02.001.002.001;DI Futuro
+01.02.002.000.000;Derivativos de Balcão
+01.02.002.001.000;Derivativos de Balcão
+01.02.002.001.001;SWAP PRÉ
+01.02.002.001.002;SWAP  CDI SELIC
+01.02.002.001.003;SWAP DÓLAR
+01.02.002.001.004;SWAP EURO
+01.02.002.001.005;SWAP FRANC
+01.02.002.001.006;SWAP UMBNDES
+01.02.003.000.000;Ajuste Ganhos e Perdas com Derivativos
+01.02.003.001.000;Ajuste Ganhos e Perdas com Derivativos
+01.02.003.001.001;Ajuste Ganhos e Perdas com Derivativos
+02.00.000.000.000;PASSIVO com Derivativos
+02.01.000.000.000;PASSIVO (sem Derivativos)
+02.01.001.000.000;Operações compromissadas
+02.01.001.001.000;Operações compromissadas
+02.01.001.001.001;Operações compromissadas
+02.01.002.000.000;Debêntures
+02.01.002.001.000;Mercado
+02.01.002.001.001;Mercado
+02.01.002.002.000;Caixa
+02.01.002.002.001;Caixa
+02.01.003.000.000;CVS
+02.01.003.001.000;CVS
+02.01.003.001.001;CVS
+02.01.004.000.000;FMM
+02.01.004.001.000;FMM
+02.01.004.001.001;FMM
+02.01.005.000.000;Bônus
+02.01.005.001.000;Bônus
+02.01.005.001.001;Bônus
+02.01.006.000.000;Organismos Internacionais
+02.01.006.001.000;Organismos Internacionais
+02.01.006.001.001;Organismos Internacionais
+02.01.007.000.000;Dívida junto ao TN
+02.01.007.001.000;Dívida junto ao TN
+02.01.007.001.001;Híbrido (Capital Complementar)
+02.01.007.001.002;TN_Outros
+02.01.007.001.003;Híbrido (K1)
+02.01.008.000.000;PIS-PASEP
+02.01.008.001.000;PIS-PASEP
+02.01.008.001.001;PIS-PASEP
+02.01.009.000.000;Dívida junto ao FAT
+02.01.009.001.000;FAT Constitucional
+02.01.009.001.001;FAT Constitucional
+02.01.009.002.000;FAT Depósitos Especiais
+02.01.009.002.001;FAT Depósitos Especiais
+02.01.010.000.000;Outros Passivos
+02.01.010.001.000;Outros Passivos
+02.01.010.001.001;Outros Passivos
+02.01.011.000.000;PATRIMÔNIO LÍQUIDO
+02.01.011.001.000;Capital Social
+02.01.011.001.001;Capital Social
+02.01.011.002.000;Lucros Acumulados
+02.01.011.002.001;Lucros Acumulados
+02.01.011.002.002;Resultado do exercício
+02.01.011.003.000;Reservas
+02.01.011.003.001;Reservas de capital
+02.01.011.003.002;Reservas de reavaliação
+02.01.011.003.003;Reservas de lucros
+02.01.011.004.000;Outros
+02.01.011.004.001;Ajustes de avaliação patrimonial
+02.01.011.004.002;Aumento de capital em curso
+02.01.011.004.003;Dividendos Intermediários
+02.01.011.004.004;Outros
+02.02.000.000.000;Derivativos (Passivo)
+02.02.001.000.000;Derivativos de Bolsa
+02.02.001.001.000;Dólar Futuro
+02.02.001.001.001;Dólar Futuro
+02.02.001.001.002;Dólar Futuro / DI Futuro
+02.02.001.002.000;DI Futuro
+02.02.001.002.001;DI Futuro
+02.02.002.000.000;Derivativos de Balcão
+02.02.002.001.000;Derivativos de Balcão
+02.02.002.001.001;SWAP PRÉ
+02.02.002.001.002;SWAP  CDI SELIC
+02.02.002.001.003;SWAP DÓLAR
+02.02.002.001.004;SWAP EURO
+02.02.002.001.005;SWAP FRANC
+02.02.002.001.006;SWAP UMBNDES
+03.00.000.000.000;Demonstração do Resultado do Exercício
+03.01.000.000.000;
+03.01.001.000.000;
+03.01.001.001.000;
+03.01.001.001.999;Lucro após imposto de renda e pagamento de dividendos
+04.00.000.000.000;Fluxo de Caixa
+04.01.000.000.000;Entradas
+04.01.001.000.000;Entradas
+04.01.001.001.000;Outros
+04.01.001.001.001;Retorno
+04.01.001.001.002;FAT
+04.01.001.001.003;Captação junto ao Tesouro Nacional
+04.01.001.001.004;Carteira de renda variável
+04.01.001.001.005;Monetização de títulos
+04.01.001.001.006;Outros
+04.01.001.002.000;Captações
+04.01.001.002.001;Captações: Internas
+04.01.001.002.002;Captações: Externas
+04.02.000.000.000;Saídas Totais (Exceto tributos e dividendos)
+04.02.001.000.000;Saídas (Exceto tributos e dividendos)
+04.02.001.001.000;
+04.02.001.001.001;Aquisição de títulos públicos
+04.02.001.001.002;Despesas administrativas e outras saídas
+04.02.001.001.003;Liquidação de compromissadas
+04.02.001.001.004;Aplicações Tesouraria
+04.02.001.002.000;Serviço da dívida
+04.02.001.002.001;Serviço da dívida: Interna: FAT
+04.02.001.002.002;Serviço da dívida: Interna: Outros
+04.02.001.002.003;Serviço da dívida: Interna: PIS-PASEP
+04.02.001.002.004;Serviço da dívida: Interna: Tesouro Nacional
+04.02.001.002.005;Serviço da dívida: externa
+04.02.002.000.000;Desembolsos efetivos sem recursos vinculados
+04.02.002.001.000;
+04.02.002.001.001;Desembolsos: Investimento em Ações
+04.02.002.001.002;Desembolsos: Investimento em Debêntures
+04.02.002.001.003;Desembolsos: Investimento em RF
+04.02.003.000.000;
+04.02.003.001.000;
+04.02.003.001.001;Programas Governamentais
+04.03.000.000.000;Saídas Tributos e Dividendos
+04.03.001.000.000;Tributos e Dividendos
+04.03.001.001.000;
+04.03.001.001.001;Despesas tributárias
+04.03.001.001.002;Dividendos pagos à União
+05.00.000.000.000;Lucros
+05.01.000.000.000;LAIR
+05.01.001.000.000;
+05.01.001.001.000;
+05.01.001.001.998;Receitas Antes do Imposto de Renda
+05.01.001.001.999;Despesas Antes do Imposto de Renda
+05.02.000.000.000;Imposto de Renda
+05.02.001.000.000;
+05.02.001.001.000;
+05.02.001.001.999;Imposto de renda
+05.03.000.000.000;Distribuição de Lucros
+05.03.001.000.000;
+05.03.001.001.000;
+05.03.001.001.999;Distribuição de Lucros
+06.00.000.000.000;Fluxo de Caixa Acumulado no Ano
+06.01.000.000.000;Entradas
+06.01.001.000.000;Entradas
+06.01.001.001.000;Outros
+06.01.001.001.001;Retorno
+06.01.001.001.002;FAT
+06.01.001.001.003;Captação junto ao Tesouro Nacional
+06.01.001.001.004;Carteira de renda variável
+06.01.001.001.005;Monetização de títulos
+06.01.001.001.006;Outros
+06.01.001.002.000;Captações
+06.01.001.002.001;Captações: Internas
+06.01.001.002.002;Captações: Externas
+06.02.000.000.000;Saídas Totais (Exceto tributos e dividendos)
+06.02.001.000.000;Saídas (Exceto tributos e dividendos)
+06.02.001.001.000;
+06.02.001.001.001;Aquisição de títulos
+06.02.001.001.002;Despesas administrativas e outras saídas
+06.02.001.001.003;Liquidação de compromissadas
+06.02.001.002.000;Serviço da dívida
+06.02.001.002.001;Serviço da dívida: Interna: FAT
+06.02.001.002.002;Serviço da dívida: Interna: Outros
+06.02.001.002.003;Serviço da dívida: Interna: PIS-PASEP
+06.02.001.002.004;Serviço da dívida: Interna: Tesouro Nacional
+06.02.001.002.005;Serviço da dívida: externa
+06.02.002.000.000;Desembolsos efetivos sem recursos vinculados
+06.02.002.001.000;
+06.02.002.001.001;Desembolsos: Investimento em Ações
+06.02.002.001.002;Desembolsos: Investimento em Debêntures
+06.02.002.001.003;Desembolsos: Investimento em RF
+06.02.003.000.000;
+06.02.003.001.000;
+06.02.003.001.001;Programas Governamentais
+06.03.000.000.000;Saídas Tributos e Dividendos
+06.03.001.000.000;Tributos e Dividendos
+06.03.001.001.000;
+06.03.001.001.001;Despesas tributárias
+06.03.001.001.002;Dividendos pagos à União
+07.00.000.000.000;Patrimônio de Referência
+07.01.000.000.000;K1
+07.01.001.000.000;Capital principal
+07.01.001.001.000;PL K1
+07.01.001.001.001;Capital Social
+07.01.001.001.002;Outros exceto instrumento elegível ao K principal
+07.01.001.002.000;PL AVM
+07.01.001.002.001;PL AVM
+07.01.001.003.000;Instrumento elegível ao K principal
+07.01.001.003.001;Instrumento elegível ao K principal
+07.01.002.000.000;Capital complementar
+07.01.002.001.000;Capital complementar
+07.01.002.001.001;Capital complementar
+07.02.000.000.000;K2
+07.02.001.000.000;
+07.02.001.001.000;
+07.02.001.001.001;Metade do K1
