@@ -4,11 +4,11 @@ require("balance_sheet_types.jl")
 require("balance_sheet_methods.jl")
 
 # Teste 1: Cria um plano de contas vazio
-pc = Trie{ContaContabil}()
+balanceSheet = Trie{Account}()
 
 # Teste 2: Carga do plano de contas a partir do CSV
 filename = "../dados/plano_contas.csv"
-carrega_plano_de_contas_csv(pc, filename)
+carrega_plano_de_contas_csv(balanceSheet, filename)
 
 #Teste 3: Teste de carga na busca de contas
 contas = readtable(filename, separator=';', header=true)

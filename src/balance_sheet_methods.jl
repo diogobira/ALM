@@ -1,14 +1,11 @@
 ############################################################################
 # Operações Básicas relacionados ao Plano de Contas
 #
-# Autores:
-#	Diogo Gobira
-#	Felipe Vilhena
 ############################################################################
 
 # carrega_plano_de_contas_csv
 # Carrega o plano de contas "planoDeContas" a partir de um arquivo de dados CSV.
-function carrega_plano_de_contas_csv(planoDeContas, filename)
+function carrega_plano_de_contas_csv(balanceSheet, filename)
 
 	#Lê o arquivo de dados
 	contas = readtable(filename, separator=';', header=true)
@@ -19,7 +16,7 @@ function carrega_plano_de_contas_csv(planoDeContas, filename)
 		id = contas[i,1]
 		nome = contas[i,2]
 		typeof(nome)==NAtype ? nome="" : nome=nome
-		planoDeContas[id]=ContaContabil(0,nome)
+		balanceSheet[id]=Account(id,nome)
 	end
 
 end
