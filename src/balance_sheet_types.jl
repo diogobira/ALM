@@ -4,31 +4,8 @@
 ############################################################################
 
 ### Dependencias
-using DataStructures
-using DataFrames
-
-### Tipo ContaContabil
-type Account
-
-	id::UTF8String
-	name::UTF8String
-	short_name::UTF8String
-	curve_value::Float64
-	mtm_value::Float64
-	risk_free_mtm_value::Float64
-	
-	function Account(id,name)
-		x = new()
-		x.id = id
-		x.name = name
-		x.short_name = short_name
-		x.curve_value = 0
-		x.mtm_value = 0
-		x.risk_free_mtm_value = 0
-		x
-	end
-	
-end
+### using DataStructures
+### using DataFrames
 
 ### Tipo Rating
 type CreditRating
