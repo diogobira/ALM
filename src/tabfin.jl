@@ -44,7 +44,8 @@ function financialSchedulle(c::sac)
 	tabFin[:balance] = balance
 	tabFin[:amortization] = amortization
 	tabFin[:interest] = interest
-	tabFin[:cf] =  cf 
+	tabFin[:cf] = cf
+	tabFin[:index] = c.index 
 
 	return tabFin 
 

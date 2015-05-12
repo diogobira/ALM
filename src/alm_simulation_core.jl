@@ -22,26 +22,26 @@
 function run_alm_simulation(node::PathsTree, strategy)
 	
 	### Do something with the root
-	### 
+	print(string(node.level,"/",node.state,"\n"))
 
 	### When the node is not the root
-	if(root.level!=1)
+	if(node.level!=1)
 
 		### Copy main data structures		
-		node.balanceSheet = deepcopy(node.father.balanceSheet)
-		node.contracts = deepcopy(node.father.contracts)
-		node.cashFlows = deepcopy(node.father.cashFlows)		
+		node.balanceSheet = copy(node.father.balanceSheet)
+		node.contracts = copy(node.father.contracts)
+		node.cashFlows = copy(node.father.cashFlows)		
 
 		### Create new contracts and cashFlows
 		new_contracts = create_contracts_example()
-		update_cashFlows(node.cashFlows, new_contracts)
+		node.cashFlows = update_cashFlows(node.cashFlows, new_contracts)
 		
 		### Other Actions
 
 	end
 	
 	### Do something with the childs nodes recursively
-	for i=1:length(node.childs)
+	for i=1:length(node.childs)	
 		run_alm_simulation(node.childs[i], strategy)
 	end
 	

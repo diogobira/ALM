@@ -2,11 +2,10 @@
 ## create_contracts_example
 ## Create a vector of contracts. 
 ## WARNING :: This function is just for tests!
-function create_contracts_example(N=60)
+function create_contracts_example(N=40)
 	contracts = financialContract[]
-	for i=1:Int32(round(N/3))
+	for i=1:N
 		push!(contracts, sac(1000.0, 60, 0.1, UTF8String("TJLP")))
-		push!(contracts, sac(1000.0, 60, 0.1, UTF8String("IPCA")))
 	end
 	return(contracts)
 end
@@ -24,15 +23,21 @@ function update_cashFlows(cashFlows, contracts, account_id=ALM_DEFAULT_DEST_ACCO
 		tf = financialSchedulle(contracts[i])
 
 		# contract index
-		tf[:index] = contracts[i].index
+		# tf[:index] = contracts[i].index
 
 		# default acccount	
 		tf[:account_id] = account_id
 
 		# binding the new cashFlows dataframe to the current
-		cashFlows = [cashFlows,tf]
-
+		if(isempty(cashFlows))
+			cashFlows = tf
+		else
+			append!(cashFlows,tf)
+		end			
+	
 	end
+	
+	return cashFlows
 
 end
 
