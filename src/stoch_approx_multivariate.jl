@@ -21,7 +21,7 @@ type PathsTree
 	level::Int32
 	state::Int32
 	childs::Array{PathsTree,1}
-	father::PathsTree
+	#father::PathsTree
 	counter::Int64
 	prob::Float64
 	
@@ -53,7 +53,7 @@ type PathsTree
 	end
 	
 	# For generic nodes
-	function PathsTree(value,level,state,father::PathsTree) 
+	function PathsTree(value,level,state,father::PathsTree)
 
 		## Generic attributes
 		x = new() 
@@ -61,7 +61,7 @@ type PathsTree
 		x.level = level
 		x.state = state
 		x.childs = []
-		x.father = father
+		#x.father = father
 		x.counter = 0
 		x.prob = 0
 

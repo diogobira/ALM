@@ -3,6 +3,7 @@
 ######################################################################
 #workspace()
 #require("alm_all_includes.jl")
+#@everywhere require("alm_all_includes.jl")
 
 ######################################################################
 ### Initialization of main data structures
@@ -21,10 +22,28 @@ value = p[:value]; params = p[:params]
 
 ### Build the tree and apply the "petelecos"
 root = PathsTree(value, 1, contracts, cashFlows, balanceSheet); 
-add_childs(root, ALM_NUMBER_OF_CHILDS, multivariate_gbm, params);
-lots_of_petelecos(root, 100000, ALM_NUMBER_OF_CHILDS, multivariate_gbm, params, normalized_euclidean_distance);
+#add_childs(root, ALM_NUMBER_OF_CHILDS, multivariate_gbm, params);
+#lots_of_petelecos(root, 100000, ALM_NUMBER_OF_CHILDS, multivariate_gbm, params, normalized_euclidean_distance);
 
 ### Run ALM Simulation Test
 #run_alm_simulation(node::PathsTree, strategy)
-croot = deepcopy(root);
-@time run_alm_simulation(croot, [1])
+#croot = deepcopy(root);
+#@time run_alm_simulation(croot, [1])
+
+
+#sendto(value, contracts, cashFlows, balanceSheet, root, croot)
+sendto(croot)
+
+###
+function sendto(p; args...)
+    for (nm, val) in args
+        @spawnat(p, eval(Main, Expr(:(=), nm, val)))
+    end
+end
+
+
+function sendto(ps::Vector{Int}; args...)
+    for p in ps
+        sendto(p; args...)
+    end
+end

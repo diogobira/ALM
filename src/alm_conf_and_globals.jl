@@ -3,7 +3,7 @@
 
 ### General Configuration
 #ALM_NUMBER_OF_CHILDS = [32,16,8,2,2,0]
-ALM_NUMBER_OF_CHILDS = [5000,[1 for i=1:20],0]
+ALM_NUMBER_OF_CHILDS = [60,[1 for i=1:20],0]
 
 
 ### Global Variables

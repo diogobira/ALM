@@ -25,4 +25,6 @@ require("risk_factor_helpers.jl")
 ###  CashFlows and Contract Helpers
 require("contracts_and_cashFlows_helpers.jl")
 
+###  CashFlows and Contract Helpers
+require("alm_simulation_core.jl")
 
